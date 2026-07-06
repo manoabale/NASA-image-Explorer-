@@ -1,0 +1,53 @@
+body {
+  background: #0f172a;
+  color: #f8fafc;
+  font-family: system-ui, sans-serif;
+  padding: 20px;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 12px 20px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+#nasaContainer {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 15px;
+}
+
+.nasa-card {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.nasa-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
